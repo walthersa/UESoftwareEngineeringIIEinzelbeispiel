@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">UE Software Engineering II Einzelbeispiel</string>
+    <string name="errNoString">Das war kein String</string>
+    <string name="errNoLong">Der String war zu kurz</string>
+    <string name="isPalindrom">Das ist ein Palindrom</string>
+    <string name="isNoPalindrom">Das ist kein ein Palindrom</string>
 </resources>
