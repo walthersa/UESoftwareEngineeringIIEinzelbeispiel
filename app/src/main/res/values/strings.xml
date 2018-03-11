@@ -4,4 +4,8 @@
     <string name="errNoLong">Der String war zu kurz</string>
     <string name="isPalindrom">Das ist ein Palindrom</string>
     <string name="isNoPalindrom">Das ist kein ein Palindrom</string>
+    <string name="check_string">Check String</string>
+    <string name="palindom">Palindom?</string>
+    <string name="eingabe_string">Eingabe String:</string>
+    <string name="string_5_zeichen"><![CDATA[String >= 5 Zeichen]]></string>
 </resources>
