@@ -33,7 +33,7 @@ script:
 
 addons:
   sonarcloud:
-    organization: "walthersa" # der key der organisation auf sonarcloud.io
+    organization: "walthersa-github" # der key der organisation auf sonarcloud.io
     token:
       secure: 8dclwEFT5dHM7azWA52Swg       # $SONAR_TOKEN -> Umgebungsvariable auf travis-ci.org
 
