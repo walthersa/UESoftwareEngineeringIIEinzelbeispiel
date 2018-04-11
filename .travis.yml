@@ -28,7 +28,7 @@ before_script:
   - adb shell input keyevent 82 &
 
 script:
-    - ./gradlew
+    - ./gradlew test
     - sonar-scanner
 
 addons:
