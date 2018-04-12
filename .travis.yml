@@ -28,6 +28,7 @@ before_script:
   - adb shell input keyevent 82 &
 
 script:
+    - chmod +x ./gradlew
     - ./gradlew test
     - sonar-scanner
 
@@ -35,7 +36,7 @@ addons:
   sonarcloud:
     organization: "walthersa-github" # der key der organisation auf sonarcloud.io
     token:
-      secure: 8dclwEFT5dHM7azWA52Swg       # $SONAR_TOKEN -> Umgebungsvariable auf travis-ci.org
+      secure: $SONAR_TOKEN       # $SONAR_TOKEN -> Umgebungsvariable auf travis-ci.org
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
